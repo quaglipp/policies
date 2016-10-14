@@ -25,7 +25,7 @@ td 	{vertical-align: top;
 	{margin:0in;
 	margin-bottom:.0001pt;
 	font-size:11.0pt;
-	font-family:"Arial",sans-serif;}
+	font-family:"Open Sans",sans-serif;}
 h1
 	{mso-style-link:"Heading 1 Char";
 	margin-top:12.0pt;
@@ -33,8 +33,7 @@ h1
 	margin-bottom:0in;
 	margin-left:0in;
 	font-size:24pt;
-	font-family:"Open Sans",sans-serif;
-	color:#000000;
+	font-family:"Open Sans",sans-serif;	color:#000000;
 	font-weight:normal;}
 h2
 	{mso-style-link:"Heading 2 Char";
@@ -44,7 +43,7 @@ h2
 	margin-bottom: 10px;
 	page-break-after:avoid;
 	font-size:14.0pt;
-	font-family:"Arial",sans-serif;
+	font-family:"Open Sans",sans-serif;
 	color:#0084b4;
 	font-weight:bold;}
 h3
@@ -55,14 +54,14 @@ h3
 	margin-left:0in;
 	page-break-after:avoid;
 	font-size:12.5pt;
-	font-family:"Arial",sans-serif;
+	font-family:"Open Sans",sans-serif;
 	color:#000000;
 	font-weight:normal;}
 h5
 	{mso-style-link:"Heading 5 Char";
 	padding: 20px 0 20px 0;
 	font-size:11.0pt;
-	font-family:"Arial",sans-serif;
+	font-family:"Open Sans",sans-serif;
 	background:#0084b4;
 	border: 1px solid #0084b4;
 	border-radius: 5px;
@@ -73,7 +72,7 @@ h6
 	{mso-style-link:"Heading 6 Char";
 	padding: 10px 0 10px 0;
 	font-size:11.0pt;
-	font-family:"Arial",sans-serif;
+	font-family:"Aria",sans-serif;
 	background:#0084b4;
 	border: 1px solid #0084b4;
 	border-radius: 5px;
