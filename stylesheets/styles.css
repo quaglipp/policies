@@ -3,10 +3,11 @@ body
 	{background-color: #f5f8fa;}
 	
  /* Table Definitions */	
-table	{border: none !Important;}
+main-content table {
+	border: none !Important;}
 
-td 	{vertical-align: top;}
-
+main-content td  {
+	vertical-align: top;}
 	
  /* Style Definitions */
 h1
