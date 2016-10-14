@@ -14,7 +14,7 @@ body
 	panose-1:2 11 6 9 2 2 4 3 2 4;}
 	
  /* Table Definitions */	
-table	{border-style: none; !Important}
+table	{border: 0; !Important}
 	
 td 	{vertical-align: top;
 	font-size:11.0pt;
