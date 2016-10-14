@@ -3,10 +3,10 @@ body
 	{background-color: #f5f8fa;}
 	
  /* Table Definitions */	
-main-content table {
+.main-content table {
 	border: none !Important;}
 
-main-content td  {
+.main-content td  {
 	vertical-align: top;}
 	
  /* Style Definitions */
