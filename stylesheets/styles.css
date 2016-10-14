@@ -3,8 +3,10 @@ body
 	{background-color: #f5f8fa;}
 	
  /* Table Definitions */	
-td 	{vertical-align: top;
-	border: 0; !Important}
+table	{border-style: none !Important;}
+
+td 	{vertical-align: top;}
+
 	
  /* Style Definitions */
 h1
