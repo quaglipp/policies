@@ -3,7 +3,8 @@ body
 	{background-color: #f5f8fa;}
 	
  /* Table Definitions */	
-table	{border: 0; !Important}
+td 	{vertical-align: top;
+	border: 0; !Important}
 	
  /* Style Definitions */
 h1
