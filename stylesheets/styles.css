@@ -1,5 +1,9 @@
 /* Page Definitions */
-/* body	{background-color: #f5f8fa;}
+/* body	{background-color: #f5f8fa;} */
+
+.main-content breadcrumb {
+	font-size .8rem;
+}
 	
 /* Table Definitions */	
 .main-content table th 
