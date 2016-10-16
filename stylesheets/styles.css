@@ -1,8 +1,8 @@
 /* Page Definitions */
 /* body	{background-color: #f5f8fa;} */
 
-.main-content p breadcrumb {
-	font-size: .5rem;
+.main-content p.breadcrumb {
+	font-size: .7rem;
 }
 	
 /* Table Definitions */	
