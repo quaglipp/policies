@@ -11,8 +11,8 @@
   display: inline-block;
   margin-bottom: 1rem;
   color: rgba(255, 255, 255, 0.7);
-  background-color: rgba(240, 240, 240, 0.08);
-  border-color: rgba(240, 240, 240, 0.2);
+  background-color: rgba(0, 132, 180, 0.08);
+  border-color: rgba(0, 132, 180, 0.2);
   border-style: solid;
   border-width: 1px;
   border-radius: 0.3rem;
@@ -23,8 +23,8 @@
 .btn-color:hover {
   color: rgba(240, 240, 240, 0.8);
   text-decoration: none;
-  background-color: rgba(240, 240, 240, 0.2);
-  border-color: rgba(240, 240, 240, 0.3); }
+  background-color: rgba(0, 132, 180, 0.2);
+  border-color: rgba(0, 132, 180, 0.3); }
 
 /* Table Definitions */	
 .main-content table th 
