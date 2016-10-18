@@ -29,6 +29,11 @@
 
 /* Toggle Buttons */
 
+label {
+	font-size: .8em;
+	color: rgba(21, 87, 153, 1);
+}
+
 .toggle-box {
    display: none;
  }
