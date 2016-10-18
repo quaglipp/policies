@@ -29,11 +29,6 @@
 
 /* Toggle Buttons */
 
-.label {
-	font-size: .8em;
-	color: rgba(21, 87, 153, 1);
-}
-
 .toggle-box {
    display: none;
  }
@@ -42,7 +37,7 @@
    cursor: pointer;
    display: block;
    font-weight: bold;
-   line-height: 21px;
+   line-height: 1.0em;
    margin-bottom: 5px;
  }
 
@@ -66,10 +61,10 @@
    float: left;
    font-weight: bold;
    height: 16px;
-   line-height: 16px;
+   line-height: 1.0em;
    margin-right: 5px;
    text-align: center;
-   width: 20px;
+   width: 16px;
  }
 
  .toggle-box:checked + label:before {
