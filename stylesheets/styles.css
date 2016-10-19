@@ -75,17 +75,17 @@
 
 
 /* Table Definitions */	
-.main-content table th 
-	{border: none !Important;}
+.main-content table th {
+	border: none !Important;
+	vertical-align: top;
+	padding: 0 0 0 0;
+}
 
-.main-content table td 
-	{border: none !Important;}
-
-.main-content table th  
-	{vertical-align: top;}
-
-.main-content table td  
-	{vertical-align: top;}
+.main-content table td {
+	border: none !Important;
+    vertical-align: top;
+	padding: 0 0 0 0;
+}
 	
 /* Style Definitions */
 
