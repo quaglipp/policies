@@ -44,6 +44,7 @@
 
  .toggle-box + label + div {
    display: none;
+   color: rgba(0, 132, 180, 1);
    margin-bottom: 10px;
  }
 
