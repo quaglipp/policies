@@ -36,6 +36,7 @@
  .toggle-box + label {
    cursor: pointer;
    display: block;
+   color: rgba(0, 132, 180, 1);
    font-weight: bold;
    line-height: 1.0em;
    margin-bottom: 5px;
