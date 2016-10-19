@@ -78,13 +78,13 @@
 .main-content table th {
 	border: none !Important;
 	vertical-align: top;
-	padding: 0 0 0 0;
+	padding: 0 10px 20px 0;
 }
 
 .main-content table td {
 	border: none !Important;
     	vertical-align: top;
-	padding: 0 0 0 0;
+	padding: 0 10px 20px 0;
 }
 	
 /* Style Definitions */
