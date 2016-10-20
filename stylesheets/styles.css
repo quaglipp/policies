@@ -2,14 +2,16 @@
 /* body	{background-color: #f5f8fa;} */
 
 .main-content p.breadcrumb {
-	font-size: 0.7em;
+	font-size: 0.8em;
+	letter-spacing: 1px;
 }
 	
 /* Custom Buttons */
 
 .btn-color {
   display: inline-block;
-  padding: 10px 20px 10px 20px;
+  padding: 15px 25px 15px 25px;
+  margin-right: 1rem;
   margin-bottom: 1rem;
   color: rgba(255, 255, 255, 0.9);
   background-color: rgba(21, 87, 153, 1);
@@ -27,6 +29,7 @@
   background-color: rgba(21, 87, 153, 0.2);
   border-color: rgba(21, 87, 153, 1); }
 
+
 /* Toggle Buttons */
 
 .toggle-box {
@@ -39,13 +42,13 @@
    color: rgba(21, 87, 153, 1);
    font-weight: bold;
    line-height: 1.0em;
-   margin-bottom: 5px;
+   margin-bottom: 10px;
  }
 
  .toggle-box + label + div {
    display: none;
    color: rgba(21, 87, 153, 1);
-   margin-bottom: 10px;
+   margin-bottom: 20px;
  }
 
  .toggle-box:checked + label + div {
@@ -77,15 +80,17 @@
 
 /* Table Definitions */	
 .main-content table th {
-	border: none !Important;
 	vertical-align: top;
-	padding: 0 10px 20px 0;
+	padding: 0 0 0 0;
+	background-color: #e9ebec;
+	border: 2px solid #ffffff !Important;
 }
 
 .main-content table td {
 	border: none !Important;
-    	vertical-align: top;
-	padding: 0 10px 20px 0;
+	text-align: left;
+    vertical-align: top;
+	padding: 0 0 20px 0;
 }
 	
 /* Style Definitions */
@@ -93,26 +98,15 @@
 .main-content h1, .main-content h3 {
 	color: rgb(21, 87, 153);
 }
-
-h5
-	{padding: 20px 10px 20px 10px;
-	margin: 0 0 0 0;
+	
+.main-content h4 {
+	font-weight: bold;
 	font-size: 1.2em;
-	color:#ffffff !Important;
-	background:#0084b4;
-	border: 1px solid #0084b4;
-	border-radius: 5px;
-	font-weight:bold;
-	text-align: center;}
-h6
-	{padding: 10px 0 10px 0;
-	font-size:11.0pt;
-	background:#0084b4;
-	border: 1px solid #0084b4;
-	border-radius: 5px;
-	color:#ffffff;
-	font-weight:bold;
-	text-align: center;}
+}
+
+.main-content h5 {
+	margin-bottom: -30px;
+}
 
 p.guideline
 	{padding: 10px;
@@ -122,44 +116,6 @@ p.guideline
 	border-radius: 5px;
 	font-size: 1.0em;
 	color:#0084b4;}
-
- /* Divs */	
-	div.WordSection1
-	{page:WordSection1; 
-	margin-top: 10px; 
-	margin-left: auto; 
-	margin-right: auto; 
-	width: 625px; 
-	background-color: #ffffff; 
-	border: 1px solid #e3e3e3; 
-	border-radius: 5px; 
-	padding: 30px 40px 20px 40px;}
-div.WordSection2
-	{page:WordSection2; 
-	margin-top: 10px; 
-	margin-left: auto; 
-	margin-right: auto; 
-	width: 625px; 
-	background-color: #0084b4;
-	border-radius: 5px; 
-	padding: 30px 40px 20px 40px;}
-div.WordSection2 h1
-	{color: #FFFFFF!Important;}
-div.WordSection2 h2
-	{color: #FFFFFF!Important;}
-div.WordSection2 h3
-	{color: #FFFFFF!Important;}
-div.WordSection2 p
-	{color: #FFFFFF!Important;}
-div.WordSection2 a:link, span.MsoHyperlink
-	{color:#ffffff;
-	text-decoration:none;}
-div.WordSection2 a:hover, span.MsoHyperlink
-	{color:#ffffff;
-	text-decoration:underline;}
-div.WordSection2 a:visited, span.MsoHyperlinkFollowed
-	{color:#ffffff;
-	text-decoration:none;}
 
 
 
