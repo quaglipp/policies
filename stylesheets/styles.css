@@ -1,9 +1,26 @@
 /* Page Definitions */
 /* body	{background-color: #f5f8fa;} */
 
+body {
+	font-family: 'Source Sans Pro', sans-serif !Important;
+	font-weight: 300;
+	color: #222;
+}
+
+
+/* colors in page header */
+.page-header {
+  color: #fff;
+  text-align: center;
+  background-color: rgba(217,217,217,1);
+  background-image: linear-gradient(120deg, rgba(32,117,161,1), rgba(37,139,193,.5)); }
+
+  
+/* breadcrumb */  
 .main-content p.breadcrumb {
 	font-size: 0.8em;
 	letter-spacing: 1px;
+	font-weight: 400;
 }
 	
 /* Custom Buttons */
@@ -14,8 +31,8 @@
   margin-right: 1rem;
   margin-bottom: 1rem;
   color: rgba(255, 255, 255, 0.9);
-  background-color: rgba(21, 87, 153, 1);
-  border-color: rgba(21, 87, 153, 1);
+  background-color: rgba(32,117,161,1);
+  border-color: rgba(32,117,161,1);
   border-style: solid;
   border-width: 1px;
   border-radius: 0.3rem;
@@ -27,7 +44,7 @@
   color: rgba(0, 132, 180, 1);
   text-decoration: none;
   background-color: rgba(21, 87, 153, 0.2);
-  border-color: rgba(21, 87, 153, 1); }
+  border-color: rgba(32,117,161,1); }
 
 
 /* Toggle Buttons */
@@ -39,7 +56,7 @@
  .toggle-box + label {
    cursor: pointer;
    display: block;
-   color: rgba(21, 87, 153, 1);
+   color: rgba(32,117,161,1);
    font-weight: bold;
    line-height: 1.0em;
    margin-bottom: 10px;
@@ -47,7 +64,7 @@
 
  .toggle-box + label + div {
    display: none;
-   color: rgba(21, 87, 153, 1);
+   color: rgba(32,117,161,1);
    margin-bottom: 20px;
  }
 
@@ -56,7 +73,7 @@
  }
 
  .toggle-box + label:before {
-   background-color: rgba(21, 87, 153, 1);
+   background-color: rgba(32,117,161,1);
    -webkit-border-radius: 10px;
    -moz-border-radius: 10px;
    border-radius: 10px;
@@ -79,6 +96,11 @@
 
 
 /* Table Definitions */	
+
+.main-content table {
+	display: table;
+}
+
 .main-content table th {
 	vertical-align: top;
 	padding: 0 0 0 0;
@@ -95,17 +117,37 @@
 	
 /* Style Definitions */
 
-.main-content h1, .main-content h3 {
-	color: rgb(21, 87, 153);
+.project-name {
+	letter-spacing: 2px;
+	font-size: 3.6em;
+	font-weight: 300;
+}
+
+.main-content h1 {
+	color: #222;
+	font-weight: 400;
+}
+
+.main-content h2 {
+	color: rgba(32,117,161,1);
+	font-weight: 400;
+}
+
+.main-content h3 {
+	color: #222;
+	font-weight: 400;
 }
 	
 .main-content h4 {
-	font-weight: bold;
+	font-weight: 400;
 	font-size: 1.2em;
+	color: rgba(32,117,161,1);
 }
 
 .main-content h5 {
 	margin-bottom: -30px;
+	color: #222;
+	font-weight: 400;
 }
 
 p.guideline
