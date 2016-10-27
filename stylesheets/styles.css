@@ -13,7 +13,7 @@ a {
 
 /* sidebar */
 
-div.sidebar {
+.sidebar {
 	display: block; 
 	position: relative; 
 	float: right; padding: 10px; 
