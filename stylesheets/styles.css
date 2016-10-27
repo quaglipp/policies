@@ -7,6 +7,21 @@ body {
 	color: #222;
 }
 
+a {
+	color: rgba(32,117,161,1);
+}
+
+/* sidebar */
+
+div.sidebar {
+	display: block; 
+	position: relative; 
+	float: right; padding: 10px; 
+	width: 300px; 
+	background-color: rgba(0,0,0,0.2); 
+	margin: 50px 0 0 10px; 
+	z-index: 10;
+}
 
 /* colors in page header */
 .page-header {
@@ -28,6 +43,7 @@ body {
 .btn-color {
   display: inline-block;
   padding: 15px 25px 15px 25px;
+  font-size: 1.1em;
   margin-right: 1rem;
   margin-bottom: 1rem;
   color: rgba(255, 255, 255, 0.9);
@@ -81,7 +97,7 @@ body {
    content: "+";
    display: block;
    float: left;
-   font-weight: bold;
+   font-weight: 300;
    height: 16px;
    line-height: 1.0em;
    margin-right: 5px;
@@ -140,7 +156,7 @@ body {
 	
 .main-content h4 {
 	font-weight: 400;
-	font-size: 1.2em;
+	font-size: 1.4em;
 	color: rgba(32,117,161,1);
 }
 
