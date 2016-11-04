@@ -43,10 +43,10 @@ a {
 
 .btn-color {
   display: inline-block;
-  padding: 15px 20px 15px 20px;
+  padding: 15px 10px 15px 10px;
+  width: 90%;
+  text-align: center;
   font-size: 1.1em;
-  margin-right: 1rem;
-  margin-bottom: 1rem;
   color: rgba(255, 255, 255, 0.9);
   background-color: rgba(32,117,161,1);
   border-color: rgba(32,117,161,1);
@@ -110,7 +110,21 @@ a {
    content: "\2212";
  } 
 
+ 
+/* Feedback-Details-Favorites */
 
+div.extras {
+	margin: 5px 0 25px -15px; 
+	display: inline-block;
+	vertical-align: middle;
+}
+
+div.extras img {
+	height: 20px;
+	width: 20px;
+	margin: 10px 5px 0 15px;
+	vertical-align: bottom;
+}
 
 /* Table Definitions */	
 
