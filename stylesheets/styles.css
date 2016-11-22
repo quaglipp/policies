@@ -11,6 +11,13 @@ a {
 	color: rgba(32,117,161,1);
 }
 
+/* Section */
+
+.main-content {
+	margin-bottom: 100px:
+	border-bottom: 20px solid #cccccc;
+}
+
 /* sidebar */
 
 .main-content div.sidebar {
